@@ -1043,22 +1043,31 @@ ul.arrow li {
   color: #935524;
 }
 /* line 595, ../sass/screen.scss */
+.sponsor h1 {
+  margin: 0 0 30px;
+}
+/* line 598, ../sass/screen.scss */
+.sponsor .wrapper {
+  width: 1024px;
+  margin: 5% auto;
+}
+/* line 602, ../sass/screen.scss */
 .sponsor .item {
-  margin: 20px 2%;
+  margin: 20px 3%;
   display: inline-block;
   width: 25%;
   border: 20px rgba(0, 0, 0, 0.1) solid;
   border-radius: 15px;
 }
-/* line 597, ../sass/screen.scss */
-.sponsor .item:first-child {
+/* line 604, ../sass/screen.scss */
+.sponsor .item:nth-child(2) {
   margin-left: 0;
 }
-/* line 601, ../sass/screen.scss */
-.sponsor .item:last-child {
+/* line 607, ../sass/screen.scss */
+.sponsor .item:nth-child(4) {
   margin-right: 0;
 }
-/* line 609, ../sass/screen.scss */
+/* line 614, ../sass/screen.scss */
 .sponsor .item h2 {
   border-top: 5px #da7d00 solid;
   margin: -0.3em 0 0;
@@ -1069,43 +1078,48 @@ ul.arrow li {
   text-align: center;
   color: #935524;
 }
-/* line 619, ../sass/screen.scss */
+/* line 624, ../sass/screen.scss */
 .sponsor .item h2.wait {
   border-top: 5px #777777 solid;
   background: #aaa;
   color: #777777;
   text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.3);
 }
-/* line 625, ../sass/screen.scss */
+/* line 630, ../sass/screen.scss */
 .sponsor .item a {
   text-decoration: none;
 }
-/* line 628, ../sass/screen.scss */
+/* line 633, ../sass/screen.scss */
 .sponsor .item a:hover {
   text-decoration: none;
 }
+/* line 637, ../sass/screen.scss */
+.sponsor .who {
+  display: block;
+  margin: 40px auto;
+}
 
-/* line 634, ../sass/screen.scss */
+/* line 643, ../sass/screen.scss */
 .staff {
   position: relative;
   background: #935524;
   color: #fff;
 }
-/* line 638, ../sass/screen.scss */
+/* line 647, ../sass/screen.scss */
 .staff h1 {
   margin: 1em 0 0.8em;
 }
-/* line 641, ../sass/screen.scss */
+/* line 650, ../sass/screen.scss */
 .staff .person {
   position: relative;
   margin: 30px auto;
   width: 900px;
 }
-/* line 645, ../sass/screen.scss */
+/* line 654, ../sass/screen.scss */
 .staff .person:last-child {
   margin-bottom: 100px;
 }
-/* line 648, ../sass/screen.scss */
+/* line 657, ../sass/screen.scss */
 .staff .person img {
   display: inline-block;
   position: relative;
@@ -1116,7 +1130,7 @@ ul.arrow li {
   margin: 0;
   vertical-align: top;
 }
-/* line 658, ../sass/screen.scss */
+/* line 667, ../sass/screen.scss */
 .staff .person .information {
   margin-left: -65px;
   padding: 0 30px 0 70px;
@@ -1124,32 +1138,32 @@ ul.arrow li {
   width: 680px;
   display: inline-block;
 }
-/* line 665, ../sass/screen.scss */
+/* line 674, ../sass/screen.scss */
 .staff .person .information a.name {
   text-decoration: none;
   color: #0D96CD;
   font-size: 1.6em;
 }
-/* line 669, ../sass/screen.scss */
+/* line 678, ../sass/screen.scss */
 .staff .person .information a.name:hover {
   color: #1cb4f1;
 }
-/* line 674, ../sass/screen.scss */
+/* line 683, ../sass/screen.scss */
 .staff .person .information a {
   text-decoration: none;
   color: #aaa;
   font-size: 1.2em;
 }
-/* line 678, ../sass/screen.scss */
+/* line 687, ../sass/screen.scss */
 .staff .person .information a:hover {
   color: #c3c3c3;
 }
-/* line 682, ../sass/screen.scss */
+/* line 691, ../sass/screen.scss */
 .staff .person .information p {
   margin: 2px;
 }
 
-/* line 689, ../sass/screen.scss */
+/* line 698, ../sass/screen.scss */
 footer {
   position: relative;
   overflow: hidden;
@@ -1157,28 +1171,28 @@ footer {
   color: #fff;
   height: 140px;
 }
-/* line 695, ../sass/screen.scss */
+/* line 704, ../sass/screen.scss */
 footer div {
   margin: 30px auto 0;
   width: 160px;
 }
-/* line 698, ../sass/screen.scss */
+/* line 707, ../sass/screen.scss */
 footer div h2 {
   font-family: "Patua One", cursive;
   font-size: 2em;
   margin: 0;
 }
-/* line 703, ../sass/screen.scss */
+/* line 712, ../sass/screen.scss */
 footer div a {
   color: #ddd;
   text-decoration: none;
   text-align: center;
 }
-/* line 707, ../sass/screen.scss */
+/* line 716, ../sass/screen.scss */
 footer div a:hover {
   color: #1d6cba;
 }
-/* line 712, ../sass/screen.scss */
+/* line 721, ../sass/screen.scss */
 footer a.author {
   margin-top: 5px;
   display: block;
